@@ -1,0 +1,24 @@
+<!-- item_type_b.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="@android:drawable/btn_star_big_on"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textViewB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zdjecuie2"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>
